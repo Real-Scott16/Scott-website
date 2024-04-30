@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GRID</title>
+        <style>
+            .first {
+                background-color: aqua;
+                
+            }
+            .second {
+                background-color: blueviolet;
+            }
+            .grid1 {
+                display: grid;
+                grid-template-columns: 200px 75px;
+                height: 25px;
+                margin-bottom: 50px;
+                
+            }
+            .grid2 {
+                display: grid;
+                grid-template-columns: 50px 1fr 75px;
+                height: 25px;
+        
+
+            }
+            .col1, .col6, .col8 {
+                background-color: pink;
+            }
+            .col2 {
+                background-color: blue;
+            }
+            .col3 {
+                background-color: pink;
+            }
+            .grid3 {
+                margin-top: 50px;
+                display: grid;
+                grid-template-columns: 25% 25% 25% 25%;
+                 column-gap: 20px;
+                row-gap: 10px;
+                
+            }
+            .col4, .col5, .col7 {
+                background-color: blue;
+            }
+        </style>
+    </head>
+
+<body>
+    <div class="grid1">
+        <div class="first">div 1</div> 
+    <div class="second">div 2</div>
+    </div>
+
+
+    <div class="grid2">
+        <div class="col1">col 1</div> 
+    <div class="col2">col 2</div>
+    <div class="col3">col 3</div>
+    </div>
+
+
+<div class="grid3">
+    <div class="col1">col 1</div> 
+    <div class="col2">col 2</div>
+    <div class="col3">col 3</div>
+    <div class="col4">col 4</div>
+    <div class="col5">col 5</div> 
+    <div class="col6">col 6</div>
+    <div class="col7">col 7</div>
+    <div class="col8">col 8</div>
+    </div>
+</body>
+</html>
+
